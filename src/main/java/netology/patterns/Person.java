@@ -4,9 +4,9 @@ import java.util.Objects;
 import java.util.OptionalInt;
 
 public class Person {
-    private String name;
-    private String surname;
-    private int age  = -1;
+    private final String name;
+    private final String surname;
+    private int age = -1;
     private String address;
 
     public Person(String name, String surname, int age) {
