@@ -74,7 +74,7 @@ public class Person {
     public PersonBuilder newChildBuilder() {
         return new PersonBuilder()
                 .setSurname(this.surname)
-                .setAge(this.age)
+                .setAge(0)
                 .setAddress(this.address);
     }
 }
